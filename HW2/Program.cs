@@ -49,4 +49,4 @@ int[,] matrix = CreateMatrix(rows, columns);
 PrintArray(matrix);
 int num1 = Prompt("Введите индекс строки:");
 int num2 = Prompt("Введите индекс столбца:");
-System.Console.WriteLine(FindIndex(matrix, num1-1, num2-1));
+System.Console.WriteLine(FindIndex(matrix, num1 - 1, num2 - 1));
